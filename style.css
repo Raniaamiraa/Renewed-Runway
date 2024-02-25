@@ -1,61 +1,69 @@
 body {
-    background: linear-gradient(#A8B4A5, #e1ebe5);
- font-family: 'Poppins', sans-serif;
- justify-content: center;
- align-items: center;
+  font-family:Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
   margin: 0;
+
+  background-image: url('icons/Achtergrond.png'); 
+    background-size:cover;
+    background-position: top;
+    height: 100%; 
+    margin: 0;
 }
 
-  main {
-    margin: 0 auto;
-    width: 90%;
-  }
-  
-  header {
-    color: #000;
-    padding: 0.5em;
-    display: flex;
-    align-items: center;
-   
-  }
-a{
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  color: #000;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+
+}
+
+a {
   text-decoration: none;
-color: #000;
+  color: #000;
 }
 
 
- ul{
+ul {
   list-style: none;
- }
+}
 
- article{
+article {
   background-color: #9D6A89;
   padding: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   display: block;
   text-align: center;
- }
+  border-radius: 20px;
+}
 
- section{
+section {
   background-color: #EFBC9B;
   padding: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
- }
- 
- h1{
+  border-radius: 20px;
+}
+
+h1 {
   text-align: center;
 
- }
+}
 
- h2{
- text-align: center;
- }
+h2 {
+  text-align: center;
+}
 
- footer {
+footer {
   position: relative;
   bottom: 0;
   left: 0;
@@ -73,11 +81,7 @@ div {
   align-items: center;
   padding: 2px;
 }
- /*
-.naai-icoon img{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
 
+p{
+  padding: 0.5em;
+}
